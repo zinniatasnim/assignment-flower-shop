@@ -13,20 +13,16 @@
 }
 .content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 80px;
-    padding-top: 10px;
+    float: left;
+    margin-left: 250px;
 }
 .nav-container{
     /* border: 2px solid tomato; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 30px 150px;
-    /* width: 1140px; */
-    /* height: 71vh; */
-    
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    align-items: center;
+        
 }
 .anchor{
     margin-right: 5px;
@@ -39,8 +35,7 @@ a{
     .anchor{
         display: none;
     }
-    /* .nav-container{
+    .nav-container{
         justify-content: space-between;
-    } */
-    
+    }
 }
