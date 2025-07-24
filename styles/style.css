@@ -1,0 +1,46 @@
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.cart{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    margin-right: 10px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    padding-top: 10px;
+}
+.nav-container{
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+    /* width: 1140px; */
+    /* height: 71vh; */
+    
+}
+.anchor{
+    margin-right: 5px;
+}
+a{
+    margin-right: 30px;
+}
+
+@media screen and (max-width:576px){
+    .anchor{
+        display: none;
+    }
+    /* .nav-container{
+        justify-content: space-between;
+    } */
+    
+}
