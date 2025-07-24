@@ -44,9 +44,35 @@
 a{
     margin-left: 10px;
 }
-.nav-container{
+.nav-container, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.banner{
+    height: 461px;
+    display: flex;
+    margin-top: 70px;
+    padding: 10px 30px;
+}
+.banner-content{
+    width: 720px;
+    height: 299px; 
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0px 0px 0px;
+}
+.banner-image{
+    width: 720px;
+    height: 320px;
+}
+h1{
+    font-size: 65px ;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.500);
 }
 
 @media  screen and (max-width:567px) {
@@ -60,5 +86,8 @@ a{
     .logo{
         height: 38px;
         width: 63px;
+    }
+    .banner{
+        flex-wrap: wrap;
     }  
 }
