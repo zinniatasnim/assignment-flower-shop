@@ -132,6 +132,17 @@
 }
 .plant-lover{
     margin-top: 200px;
+    position: relative;
+    
+}
+.image2 {
+    position: absolute;
+    right: 50px;
+    stroke: black;
+    /* border: 2px solid tomato; */
+    left: 30%;
+    top: -15%;
+    filter: drop-shadow(5px 15px 2px rgba(0, 0, 0, 0.300));
 }
 .lover-content{
     /* border: 2px solid tomato; */
@@ -201,16 +212,17 @@
         order: 2;
     }
 
-    .banner-heading, .plant-heading{
+    .banner-heading, .plant-heading, .lover-heading{
     font-size: 34px ;
     font-weight: bold;
     }
 
-    .banner-text, .plant-paragraph{
+    .banner-text, .plant-paragraph, .lover-list{
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.500);
     }
+
     .plant-text{
         text-align: center;
         width: 100%;    
@@ -227,4 +239,25 @@
     height: 320px;
     margin-bottom: 20px;
     }
+    .badge{
+        display: none;
+    }
+    .lover-content{
+        width: 100vw;
+        height: 100vh;
+        margin-top: 0px;
+        padding: 0px 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .plant-content{
+        padding: 0px 5px;
+    }
+
+    /* .plant-section, .plant-lover{
+        padding: 0px 5px;
+    } */
+
+
+
 }
