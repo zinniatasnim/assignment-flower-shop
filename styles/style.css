@@ -44,7 +44,7 @@
 .link, .cart-anchor{
     margin-left: 10px;
 }
-.nav-container, .banner, .plant-section{
+.nav-container, .banner, .plant-section, .plant-lover{
     max-width: 1440px;
     margin: 0 auto;
     /* border: 2px solid blue; */
@@ -72,12 +72,12 @@
     font-size: 65px ;
     font-weight: bold;
 }
-.banner-text, .plant-paragraph{
+.banner-text, .plant-paragraph, .lover-list{
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.500);
 }
-.plant-section{
+.plant-section, .plant-lover{
     margin-top: 70px;
     padding: 10px 30px;
 
@@ -130,6 +130,42 @@
     color: white;
     /* border: 2px solid teal; */
 }
+
+.lover-content{
+    border: 2px solid tomato;
+    /* padding: 10px 30px; */
+    /* display: flex;
+    justify-content: space-between;
+     */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem; 
+    align-items: center;
+}
+/* .lover-text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.lover-heading{
+    font-size: 65px;
+    font-weight: bold;
+}
+.lover-list{
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 50px;
+   
+}
+/* li{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+} */
+
 
 
 
