@@ -41,12 +41,13 @@
     /* margin: 30px 150px; */
     
 }
-a{
+.link, .cart-anchor{
     margin-left: 10px;
 }
-.nav-container, .banner{
+.nav-container, .banner, .plant-section{
     max-width: 1440px;
     margin: 0 auto;
+    /* border: 2px solid blue; */
 }
 .banner{
     height: 461px;
@@ -67,17 +68,73 @@ a{
     height: 100%;
     order: 2;
 }
-.banner-heading{
+.banner-heading , .plant-heading{
     font-size: 65px ;
     font-weight: bold;
 }
-.banner-text{
+.banner-text, .plant-paragraph{
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.500);
 }
+.plant-section{
+    margin-top: 70px;
+    padding: 10px 30px;
 
-@media  screen and (max-width:567px) {
+}
+.plant-heading{
+    margin-bottom: 20px;
+}
+.plant-text{
+    margin-top: 70px;
+    margin-bottom: 80px;
+    /* padding: 10px 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px dotted red; */
+}
+.plant-paragraph{
+    width: 888px;
+    height: 54px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
+
+.card-image{
+    width: 270px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.card-text{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px dotted tomato; */
+}
+
+.btn-primary{
+    /* font-size: 14px;
+    padding: 12px 83px; */
+    width: 100%;
+    display: block;
+    background-color:#E95A08;
+    color: white;
+    /* border: 2px solid teal; */
+}
+
+
+
+
+@media  screen and (max-width:576px) {
     .link{
         display: none;
     }
@@ -110,14 +167,29 @@ a{
         order: 2;
     }
 
-    .banner-heading{
+    .banner-heading, .plant-heading{
     font-size: 34px ;
     font-weight: bold;
     }
 
-    .banner-text{
+    .banner-text, .plant-paragraph{
     font-size: 14px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.500);
     }
+    .plant-text{
+        text-align: center;
+        width: 100%;    
+    }
+    .plant-paragraph{
+        width: 100%;
+    }
+    .card-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-image{
+    width: 270px;
+    height: 320px;
+    margin-bottom: 20px;
+}
 }
