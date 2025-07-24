@@ -104,7 +104,7 @@
 .card-section{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
+    gap: 6.25rem;
 }
 
 .card-image{
@@ -186,10 +186,11 @@
     }
     .card-section{
         grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
     }
     .card-image{
     width: 270px;
     height: 320px;
     margin-bottom: 20px;
-}
+    }
 }
