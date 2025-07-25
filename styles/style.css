@@ -170,7 +170,7 @@
 .lover-list{
     font-size: 20px;
     font-weight: normal;
-    /* padding-left: 50px; */
+    padding-left: 40px;
    
 }
 .column{
@@ -355,9 +355,12 @@
         margin: ;
     }
     .column{
+        width: 100%;
         display: grid;
         /* grid-template-columns: 100%; */
         row-gap: 1.25rem;
+        
+        
         /* width: 100%; */
     }
     .deal-image{
@@ -366,8 +369,34 @@
        /* height: 50v; */
 
     }
-    
 
+
+    .bloom-deal, .ana-deal{
+        /* top: 15%; */
+        left: 50%;
+        
+    }
+    .custom{
+        font-size: large;
+    }
+    .zabo-deal{
+        /* border: 2px solid teal; */
+        position: absolute;
+        top: 80% ;
+        left: 50%;
+        transform: translate(-50%, 20%);
+       
+    }
+    .zabo-p{
+        font-size:medium;
+        font-weight: normal;
+
+    }
+    .zabo-a{
+        font-size: medium ;
+        font-weight: normal;
+
+    }
 
 
 }
