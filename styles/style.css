@@ -250,6 +250,11 @@
     /* border: 2px solid yellow; */
     /* transform: translate(-50%, -50%); */
 }
+.join-section{
+    max-width: 1440px;
+    margin: 0px;
+    background-image: url('../assets/news-letter-bg.png');
+}
 
  
 
@@ -371,10 +376,15 @@
     }
 
 
-    .bloom-deal, .ana-deal{
-        /* top: 15%; */
+    .bloom-deal{
+        top: 20%;
         left: 50%;
         
+    }
+    .ana-deal{
+        top: 70%;
+        left: 50%;
+
     }
     .custom{
         font-size: large;
