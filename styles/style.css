@@ -497,7 +497,7 @@ input{
         height: 170px;
         /* margin: 0%; */
         margin-bottom: 0px;
-        background-image: cover;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .join-content{
@@ -525,7 +525,7 @@ input{
     .input-join{
         text-align: center;
         width: fit-content;
-        margin-left: 20px;
+        margin-left: 1.25rem;
         /* padding: 0% 100%; */
         /* border: 2px solid tomato; */
     }
@@ -534,7 +534,7 @@ input{
     }
     .footer{
         margin: 0PX;
-        padding: 0px 0px 40px 10px;
+        padding: 20px 0px 40px 10px;
         display: grid;
         grid-template-columns: none;
         /* grid-row: ; */
