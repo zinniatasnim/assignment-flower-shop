@@ -308,6 +308,33 @@ input{
 .btn-join{
     padding: 11px 40px;
 }
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr .5fr;
+    column-gap: 50px;
+    /* border: 2px solid tomato; */
+    /* margin: 0 40px; */
+    /* justify-content: center;
+    align-items: center; */
+
+    padding: 50px;
+}
+/* .link-footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    
+} */
+.link1-footer, .link2-footer{
+    display: grid;
+    row-gap: 10px;
+}
+.social-logo{
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    justify-content: flex-end;
+}
  
 
 
