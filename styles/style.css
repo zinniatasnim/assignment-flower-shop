@@ -525,7 +525,8 @@ input{
     .input-join{
         text-align: center;
         width: fit-content;
-        margin-left: 1.25rem;
+        padding-left: 1.25rem;
+        /* margin-left: 1.25rem; */
         /* padding: 0% 100%; */
         /* border: 2px solid tomato; */
     }
@@ -533,7 +534,7 @@ input{
         padding: 0%;
     }
     .footer{
-        margin: 0PX;
+        margin: 0px;
         padding: 20px 0px 40px 10px;
         display: grid;
         grid-template-columns: none;
