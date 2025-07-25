@@ -524,6 +524,8 @@ input{
     }
     .input-join{
         text-align: center;
+        width: fit-content;
+        margin-left: 20px;
         /* padding: 0% 100%; */
         /* border: 2px solid tomato; */
     }
