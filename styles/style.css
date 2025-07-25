@@ -351,8 +351,8 @@
         /* flex-wrap: wrap; */
     }
     .deal-pictures{
-        padding: 0px;
-        margin: ;
+        padding: 0px 10px;
+        /* margin: ; */
     }
     .column{
         width: 100%;
